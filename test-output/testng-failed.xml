@@ -5,11 +5,16 @@
     <classes>
       <class name="com.selenium.test.SeleniumTest">
         <methods>
+          <include name="logout"/>
+          <include name="placeOrder"/>
           <include name="afterTest"/>
+          <include name="searchProduct"/>
+          <include name="login"/>
           <include name="tearDown"/>
           <include name="removeFromCart"/>
           <include name="setUp"/>
           <include name="beforeTest"/>
+          <include name="addToCart"/>
         </methods>
       </class> <!-- com.selenium.test.SeleniumTest -->
     </classes>

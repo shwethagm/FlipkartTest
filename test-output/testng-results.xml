@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49219" started-at="2019-08-18T13:49:01Z" finished-at="2019-08-18T13:49:51Z">
+  <suite name="Default suite" duration-ms="55052" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:38:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49219" started-at="2019-08-18T13:49:01Z" finished-at="2019-08-18T13:49:51Z">
+    <test name="Default test" duration-ms="55052" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:38:35Z">
       <class name="com.selenium.test.SeleniumTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.test.SeleniumTest@523884b2]" name="setUp" is-config="true" duration-ms="7019" started-at="2019-08-18T13:48:54Z" finished-at="2019-08-18T13:49:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="setUp" is-config="true" duration-ms="8412" started-at="2019-08-19T14:37:32Z" finished-at="2019-08-19T14:37:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.test.SeleniumTest@523884b2]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-08-18T13:49:01Z" finished-at="2019-08-18T13:49:01Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:37:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.selenium.test.SeleniumTest@523884b2]" name="login" duration-ms="21489" started-at="2019-08-18T13:49:01Z" finished-at="2019-08-18T13:49:23Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.selenium.test.SeleniumTest@3532ec19]" name="login" duration-ms="22101" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:38:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="searchProduct()[pri:2, instance:com.selenium.test.SeleniumTest@523884b2]" name="searchProduct" duration-ms="1803" started-at="2019-08-18T13:49:23Z" finished-at="2019-08-18T13:49:25Z">
+        <test-method status="PASS" signature="searchProduct()[pri:2, instance:com.selenium.test.SeleniumTest@3532ec19]" name="searchProduct" duration-ms="2368" started-at="2019-08-19T14:38:02Z" finished-at="2019-08-19T14:38:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="addToCart()[pri:3, instance:com.selenium.test.SeleniumTest@523884b2]" name="addToCart" duration-ms="20198" started-at="2019-08-18T13:49:25Z" finished-at="2019-08-18T13:49:45Z">
+        <test-method status="PASS" signature="addToCart()[pri:3, instance:com.selenium.test.SeleniumTest@3532ec19]" name="addToCart" duration-ms="20274" started-at="2019-08-19T14:38:05Z" finished-at="2019-08-19T14:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="placeOrder()[pri:4, instance:com.selenium.test.SeleniumTest@523884b2]" name="placeOrder" duration-ms="2299" started-at="2019-08-18T13:49:45Z" finished-at="2019-08-18T13:49:47Z">
+        <test-method status="PASS" signature="placeOrder()[pri:4, instance:com.selenium.test.SeleniumTest@3532ec19]" name="placeOrder" duration-ms="5635" started-at="2019-08-19T14:38:25Z" finished-at="2019-08-19T14:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method status="PASS" signature="removeFromCart()[pri:5, instance:com.selenium.test.SeleniumTest@523884b2]" name="removeFromCart" duration-ms="2060" started-at="2019-08-18T13:49:47Z" finished-at="2019-08-18T13:49:49Z">
+        <test-method status="PASS" signature="removeFromCart()[pri:5, instance:com.selenium.test.SeleniumTest@3532ec19]" name="removeFromCart" duration-ms="2342" started-at="2019-08-19T14:38:30Z" finished-at="2019-08-19T14:38:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromCart -->
-        <test-method status="PASS" signature="logout()[pri:6, instance:com.selenium.test.SeleniumTest@523884b2]" name="logout" duration-ms="1345" started-at="2019-08-18T13:49:49Z" finished-at="2019-08-18T13:49:51Z">
+        <test-method status="PASS" signature="logout()[pri:6, instance:com.selenium.test.SeleniumTest@3532ec19]" name="logout" duration-ms="2296" started-at="2019-08-19T14:38:33Z" finished-at="2019-08-19T14:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.test.SeleniumTest@523884b2]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-18T13:49:51Z" finished-at="2019-08-18T13:49:51Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-08-19T14:38:35Z" finished-at="2019-08-19T14:38:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.test.SeleniumTest@523884b2]" name="tearDown" is-config="true" duration-ms="832" started-at="2019-08-18T13:49:51Z" finished-at="2019-08-18T13:49:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="tearDown" is-config="true" duration-ms="832" started-at="2019-08-19T14:38:35Z" finished-at="2019-08-19T14:38:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
