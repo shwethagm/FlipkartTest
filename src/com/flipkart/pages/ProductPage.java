@@ -17,7 +17,7 @@ public class ProductPage extends TestBase {
 	@FindBy(xpath = "//div[@class='_1vC4OE _3qQ9m1']")
 	WebElement productPrice;
 
-	public static String ProductPageTitle = "Sony CyberShot DSC-W810/BC IN5";
+//	public static String ProductPageTitle = "Sony CyberShot DSC-W810/BC IN5";
 
 	public ProductPage() {
 		System.out.println("ProductPage()");

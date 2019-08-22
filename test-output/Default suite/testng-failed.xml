@@ -3,13 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.flipkart.tescases.IntegrationTest">
+      <class name="com.flipkart.tescases.FlipkartTest">
         <methods>
-          <include name="setUp"/>
+          <include name="placeOrderTest"/>
           <include name="tearDown"/>
-          <include name="integrationTest"/>
+          <include name="addToCartTest"/>
+          <include name="setUp"/>
+          <include name="logoutTest"/>
+          <include name="openProductPage"/>
+          <include name="compareProductDetails"/>
+          <include name="removeProductFromCart"/>
         </methods>
-      </class> <!-- com.flipkart.tescases.IntegrationTest -->
+      </class> <!-- com.flipkart.tescases.FlipkartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

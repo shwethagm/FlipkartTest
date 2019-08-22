@@ -51,21 +51,13 @@ public class TestBase {
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+
 	}
 
 	public void waitForVisibility(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
 			wait.until(ExpectedConditions.visibilityOf(element));
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-	public void waitForVisibility() {
-		try {
-			Thread.sleep(10 * 1000);
 		}
 		catch (Exception e) {
 			e.printStackTrace();
@@ -82,7 +74,6 @@ public class TestBase {
 	}
 
 	public String getPageTitle() {
-		System.out.println("TestBase::getPageTitle()");
 		return driver.getTitle();
 	}
 

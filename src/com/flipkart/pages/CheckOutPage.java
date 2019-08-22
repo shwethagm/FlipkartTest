@@ -11,9 +11,6 @@ public class CheckOutPage extends TestBase {
 	@FindBy(xpath = "//button[@class='_2AkmmA iwYpF9 _7UHT_c']")
 	WebElement placeorder;
 
-	@FindBy(xpath = "//span[@class='pMSy0p XU9vZa']")
-	WebElement cartpageprice;
-
 	@FindBy(xpath = "//div[@class='_3dGepu']")
 	WebElement homepageBtn;
 
