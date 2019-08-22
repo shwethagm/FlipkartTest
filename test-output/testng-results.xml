@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55052" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:38:35Z">
+  <suite name="Default suite" duration-ms="54840" started-at="2019-08-22T07:16:11Z" finished-at="2019-08-22T07:17:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55052" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:38:35Z">
-      <class name="com.selenium.test.SeleniumTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="setUp" is-config="true" duration-ms="8412" started-at="2019-08-19T14:37:32Z" finished-at="2019-08-19T14:37:40Z">
+    <test name="Default test" duration-ms="54840" started-at="2019-08-22T07:16:11Z" finished-at="2019-08-22T07:17:06Z">
+      <class name="com.flipkart.tescases.IntegrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.tescases.IntegrationTest@29774679]" name="setUp" is-config="true" duration-ms="8799" started-at="2019-08-22T07:16:11Z" finished-at="2019-08-22T07:16:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:37:40Z">
+        <test-method status="PASS" signature="integrationTest()[pri:1, instance:com.flipkart.tescases.IntegrationTest@29774679]" name="integrationTest" duration-ms="45211" started-at="2019-08-22T07:16:20Z" finished-at="2019-08-22T07:17:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="login()[pri:1, instance:com.selenium.test.SeleniumTest@3532ec19]" name="login" duration-ms="22101" started-at="2019-08-19T14:37:40Z" finished-at="2019-08-19T14:38:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="searchProduct()[pri:2, instance:com.selenium.test.SeleniumTest@3532ec19]" name="searchProduct" duration-ms="2368" started-at="2019-08-19T14:38:02Z" finished-at="2019-08-19T14:38:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="addToCart()[pri:3, instance:com.selenium.test.SeleniumTest@3532ec19]" name="addToCart" duration-ms="20274" started-at="2019-08-19T14:38:05Z" finished-at="2019-08-19T14:38:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="placeOrder()[pri:4, instance:com.selenium.test.SeleniumTest@3532ec19]" name="placeOrder" duration-ms="5635" started-at="2019-08-19T14:38:25Z" finished-at="2019-08-19T14:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrder -->
-        <test-method status="PASS" signature="removeFromCart()[pri:5, instance:com.selenium.test.SeleniumTest@3532ec19]" name="removeFromCart" duration-ms="2342" started-at="2019-08-19T14:38:30Z" finished-at="2019-08-19T14:38:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeFromCart -->
-        <test-method status="PASS" signature="logout()[pri:6, instance:com.selenium.test.SeleniumTest@3532ec19]" name="logout" duration-ms="2296" started-at="2019-08-19T14:38:33Z" finished-at="2019-08-19T14:38:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-08-19T14:38:35Z" finished-at="2019-08-19T14:38:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.test.SeleniumTest@3532ec19]" name="tearDown" is-config="true" duration-ms="832" started-at="2019-08-19T14:38:35Z" finished-at="2019-08-19T14:38:36Z">
+        </test-method> <!-- integrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.tescases.IntegrationTest@29774679]" name="tearDown" is-config="true" duration-ms="813" started-at="2019-08-22T07:17:05Z" finished-at="2019-08-22T07:17:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.test.SeleniumTest -->
+      </class> <!-- com.flipkart.tescases.IntegrationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

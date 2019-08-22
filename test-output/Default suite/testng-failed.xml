@@ -3,20 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.test.SeleniumTest">
+      <class name="com.flipkart.tescases.IntegrationTest">
         <methods>
-          <include name="logout"/>
-          <include name="placeOrder"/>
-          <include name="afterTest"/>
-          <include name="searchProduct"/>
-          <include name="login"/>
-          <include name="tearDown"/>
-          <include name="removeFromCart"/>
           <include name="setUp"/>
-          <include name="beforeTest"/>
-          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="integrationTest"/>
         </methods>
-      </class> <!-- com.selenium.test.SeleniumTest -->
+      </class> <!-- com.flipkart.tescases.IntegrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

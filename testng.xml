@@ -3,7 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.selenium.test.SeleniumTest"/>
+      <class name="com.flipkart.tescases.HomePageTest"/>
+      <class name="com.flipkart.tescases.SearchResultsPageTest"/>
+      <class name="com.flipkart.tescases.ProductPageTest"/>
+      <class name="com.flipkart.tescases.CartPageTest"/>
+      <class name="com.flipkart.tescases.CheckOutPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,7 +6,7 @@
 	<classpathentry kind="lib" path="jars/activation-1.1.1.jar"/>
 	<classpathentry kind="lib" path="jars/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="jars/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="jars/client-combined-3.141.59.jar" sourcepath="C:/code/selenium/selenium-selenium-3.141.59/java"/>
 	<classpathentry kind="lib" path="jars/commons-codec-1.12.jar"/>
 	<classpathentry kind="lib" path="jars/commons-collections4-4.3.jar"/>
 	<classpathentry kind="lib" path="jars/commons-compress-1.18.jar"/>
